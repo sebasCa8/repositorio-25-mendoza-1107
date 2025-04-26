@@ -1,0 +1,42 @@
+
+
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    color: black;
+}
+.logo{
+    width: 150px;
+}
+#contenedor_cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_banner{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("./img/6032557.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+#subtitulo{
+    font-size: xx-large;
+    color:rgb(255, 255, 255)
+}
+#descripcion{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+#tarjetas{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+
+}
